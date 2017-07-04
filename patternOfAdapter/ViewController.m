@@ -53,8 +53,8 @@
     
     
     // 如果data类型或者数据格式有变化，只需要在加一个适配器而已，而没有必要再vc里或者是View里增加逻辑代码，比如下面
-//    BusinessCardAdapter *newModelAdapter = [[CardAdapter alloc] initWithData:newCardModel];
-//    [cardView loadData:newModelAdapter];
+    // BusinessCardAdapter *newModelAdapter = [[CardAdapter alloc] initWithData:newCardModel];
+    // [cardView loadData:newModelAdapter];
 
     [self.view addSubview:cardView];
 
