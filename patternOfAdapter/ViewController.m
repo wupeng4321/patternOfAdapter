@@ -30,9 +30,9 @@
     cardView.center            = self.view.center;
     
     // 直接赋值 这样做确实很简单粗暴，优缺点我也在简书中提示了，各自斟酌。
-    //    cardView.name        = @"JiKeXueYuan";
-    //    cardView.lineColor   = [UIColor redColor];
-    //    cardView.phoneNumber = @"101 - 5687 - 000";
+    // cardView.name        = @"JiKeXueYuan";
+    // cardView.lineColor   = [UIColor redColor];
+    // cardView.phoneNumber = @"101 - 5687 - 000";
     
     // 以对象赋值
     Model *model      = [[Model alloc] init];
