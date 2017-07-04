@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7615FC081F0BEB7F00468AE3 /* CardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615FBFF1F0BEB7F00468AE3 /* CardAdapter.m */; };
+		7615FC091F0BEB7F00468AE3 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615FC011F0BEB7F00468AE3 /* Model.m */; };
+		7615FC0A1F0BEB7F00468AE3 /* ModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615FC031F0BEB7F00468AE3 /* ModelAdapter.m */; };
+		7615FC0B1F0BEB7F00468AE3 /* NewCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615FC051F0BEB7F00468AE3 /* NewCardModel.m */; };
+		7615FC0C1F0BEB7F00468AE3 /* NewCardModelApater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615FC071F0BEB7F00468AE3 /* NewCardModelApater.m */; };
 		76372D821E5548CA00A80177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372D811E5548CA00A80177 /* main.m */; };
 		76372D851E5548CA00A80177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372D841E5548CA00A80177 /* AppDelegate.m */; };
 		76372D881E5548CA00A80177 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372D871E5548CA00A80177 /* ViewController.m */; };
@@ -17,11 +22,6 @@
 		76372DA61E5548CA00A80177 /* patternOfAdapterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372DA51E5548CA00A80177 /* patternOfAdapterUITests.m */; };
 		76372DC01E554C9E00A80177 /* BusinessCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372DBC1E554C9E00A80177 /* BusinessCardView.m */; };
 		76372DC11E554C9E00A80177 /* BusinessCardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372DBF1E554C9E00A80177 /* BusinessCardAdapter.m */; };
-		76372DCA1E554D1300A80177 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372DC31E554D1300A80177 /* Model.m */; };
-		76372DCB1E554D1300A80177 /* ModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372DC51E554D1300A80177 /* ModelAdapter.m */; };
-		76372DCC1E554D1300A80177 /* NewCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372DC71E554D1300A80177 /* NewCardModel.m */; };
-		76372DCD1E554D1300A80177 /* NewCardModelApater.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372DC91E554D1300A80177 /* NewCardModelApater.m */; };
-		76372DD01E554DB500A80177 /* CardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 76372DCF1E554DB500A80177 /* CardAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7615FBFE1F0BEB7F00468AE3 /* CardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardAdapter.h; path = BusinessCardViewAdapter/CardAdapter.h; sourceTree = "<group>"; };
+		7615FBFF1F0BEB7F00468AE3 /* CardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardAdapter.m; path = BusinessCardViewAdapter/CardAdapter.m; sourceTree = "<group>"; };
+		7615FC001F0BEB7F00468AE3 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Model.h; path = BusinessCardViewAdapter/Model.h; sourceTree = "<group>"; };
+		7615FC011F0BEB7F00468AE3 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Model.m; path = BusinessCardViewAdapter/Model.m; sourceTree = "<group>"; };
+		7615FC021F0BEB7F00468AE3 /* ModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelAdapter.h; path = BusinessCardViewAdapter/ModelAdapter.h; sourceTree = "<group>"; };
+		7615FC031F0BEB7F00468AE3 /* ModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelAdapter.m; path = BusinessCardViewAdapter/ModelAdapter.m; sourceTree = "<group>"; };
+		7615FC041F0BEB7F00468AE3 /* NewCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewCardModel.h; path = BusinessCardViewAdapter/NewCardModel.h; sourceTree = "<group>"; };
+		7615FC051F0BEB7F00468AE3 /* NewCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewCardModel.m; path = BusinessCardViewAdapter/NewCardModel.m; sourceTree = "<group>"; };
+		7615FC061F0BEB7F00468AE3 /* NewCardModelApater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewCardModelApater.h; path = BusinessCardViewAdapter/NewCardModelApater.h; sourceTree = "<group>"; };
+		7615FC071F0BEB7F00468AE3 /* NewCardModelApater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewCardModelApater.m; path = BusinessCardViewAdapter/NewCardModelApater.m; sourceTree = "<group>"; };
 		76372D7D1E5548CA00A80177 /* patternOfAdapter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = patternOfAdapter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76372D811E5548CA00A80177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		76372D831E5548CA00A80177 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,16 +73,6 @@
 		76372DBD1E554C9E00A80177 /* BusinessCardAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardAdapterProtocol.h; sourceTree = "<group>"; };
 		76372DBE1E554C9E00A80177 /* BusinessCardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardAdapter.h; sourceTree = "<group>"; };
 		76372DBF1E554C9E00A80177 /* BusinessCardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardAdapter.m; sourceTree = "<group>"; };
-		76372DC21E554D1300A80177 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Model.h; path = ../Model.h; sourceTree = "<group>"; };
-		76372DC31E554D1300A80177 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Model.m; path = ../Model.m; sourceTree = "<group>"; };
-		76372DC41E554D1300A80177 /* ModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelAdapter.h; path = ../ModelAdapter.h; sourceTree = "<group>"; };
-		76372DC51E554D1300A80177 /* ModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelAdapter.m; path = ../ModelAdapter.m; sourceTree = "<group>"; };
-		76372DC61E554D1300A80177 /* NewCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewCardModel.h; path = ../NewCardModel.h; sourceTree = "<group>"; };
-		76372DC71E554D1300A80177 /* NewCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewCardModel.m; path = ../NewCardModel.m; sourceTree = "<group>"; };
-		76372DC81E554D1300A80177 /* NewCardModelApater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewCardModelApater.h; path = ../NewCardModelApater.h; sourceTree = "<group>"; };
-		76372DC91E554D1300A80177 /* NewCardModelApater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewCardModelApater.m; path = ../NewCardModelApater.m; sourceTree = "<group>"; };
-		76372DCE1E554DB500A80177 /* CardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardAdapter.h; path = ../CardAdapter.h; sourceTree = "<group>"; };
-		76372DCF1E554DB500A80177 /* CardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardAdapter.m; path = ../CardAdapter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +127,16 @@
 				76372D841E5548CA00A80177 /* AppDelegate.m */,
 				76372D861E5548CA00A80177 /* ViewController.h */,
 				76372D871E5548CA00A80177 /* ViewController.m */,
-				76372DD11E554F0700A80177 /* BusinessCardViewAdapter */,
+				7615FBFE1F0BEB7F00468AE3 /* CardAdapter.h */,
+				7615FBFF1F0BEB7F00468AE3 /* CardAdapter.m */,
+				7615FC001F0BEB7F00468AE3 /* Model.h */,
+				7615FC011F0BEB7F00468AE3 /* Model.m */,
+				7615FC021F0BEB7F00468AE3 /* ModelAdapter.h */,
+				7615FC031F0BEB7F00468AE3 /* ModelAdapter.m */,
+				7615FC041F0BEB7F00468AE3 /* NewCardModel.h */,
+				7615FC051F0BEB7F00468AE3 /* NewCardModel.m */,
+				7615FC061F0BEB7F00468AE3 /* NewCardModelApater.h */,
+				7615FC071F0BEB7F00468AE3 /* NewCardModelApater.m */,
 				76372DBA1E554C8F00A80177 /* BusinessCardView */,
 				76372D891E5548CA00A80177 /* Main.storyboard */,
 				76372D8C1E5548CA00A80177 /* Assets.xcassets */,
@@ -174,23 +183,6 @@
 				76372DBF1E554C9E00A80177 /* BusinessCardAdapter.m */,
 			);
 			path = BusinessCardView;
-			sourceTree = "<group>";
-		};
-		76372DD11E554F0700A80177 /* BusinessCardViewAdapter */ = {
-			isa = PBXGroup;
-			children = (
-				76372DCE1E554DB500A80177 /* CardAdapter.h */,
-				76372DCF1E554DB500A80177 /* CardAdapter.m */,
-				76372DC21E554D1300A80177 /* Model.h */,
-				76372DC31E554D1300A80177 /* Model.m */,
-				76372DC41E554D1300A80177 /* ModelAdapter.h */,
-				76372DC51E554D1300A80177 /* ModelAdapter.m */,
-				76372DC61E554D1300A80177 /* NewCardModel.h */,
-				76372DC71E554D1300A80177 /* NewCardModel.m */,
-				76372DC81E554D1300A80177 /* NewCardModelApater.h */,
-				76372DC91E554D1300A80177 /* NewCardModelApater.m */,
-			);
-			path = BusinessCardViewAdapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,15 +320,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				76372D881E5548CA00A80177 /* ViewController.m in Sources */,
+				7615FC081F0BEB7F00468AE3 /* CardAdapter.m in Sources */,
 				76372D851E5548CA00A80177 /* AppDelegate.m in Sources */,
-				76372DCB1E554D1300A80177 /* ModelAdapter.m in Sources */,
-				76372DD01E554DB500A80177 /* CardAdapter.m in Sources */,
+				7615FC0A1F0BEB7F00468AE3 /* ModelAdapter.m in Sources */,
 				76372DC11E554C9E00A80177 /* BusinessCardAdapter.m in Sources */,
-				76372DCD1E554D1300A80177 /* NewCardModelApater.m in Sources */,
-				76372DCA1E554D1300A80177 /* Model.m in Sources */,
+				7615FC0C1F0BEB7F00468AE3 /* NewCardModelApater.m in Sources */,
+				7615FC091F0BEB7F00468AE3 /* Model.m in Sources */,
 				76372DC01E554C9E00A80177 /* BusinessCardView.m in Sources */,
-				76372DCC1E554D1300A80177 /* NewCardModel.m in Sources */,
 				76372D821E5548CA00A80177 /* main.m in Sources */,
+				7615FC0B1F0BEB7F00468AE3 /* NewCardModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
